@@ -20,7 +20,6 @@ public class FileReaderTest {
 		try {
 			input = new FileReader("E:\\refactoring\\src\\main\\resources\\test-fixture.txt");
 		} catch (FileNotFoundException e) {
-			//throw new RuntimeException("Unable to open test file");
 			throw new RuntimeException(e.getMessage());
 		}
 	}
